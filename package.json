@@ -6,6 +6,10 @@
   "scripts": {
     "start": "webpack-dev-server --inline --content-base ./"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamciolkowski/nodejs-hello-world"
+  },
   "author": "Adam Ciołkowski",
   "license": "BSD-2-Clause",
   "devDependencies": {
