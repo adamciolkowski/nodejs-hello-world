@@ -1,0 +1,15 @@
+{
+  "name": "hello-world",
+  "version": "0.0.1",
+  "description": "Hello World application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ./"
+  },
+  "author": "Adam Ciołkowski",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
