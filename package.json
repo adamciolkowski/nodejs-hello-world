@@ -13,6 +13,8 @@
   "author": "Adam Ciołkowski",
   "license": "BSD-2-Clause",
   "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "~6.2.4",
     "react": "15.1.0",
     "react-dom": "15.1.0",
     "webpack": "^1.11.0",
