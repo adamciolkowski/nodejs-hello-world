@@ -1,6 +1,6 @@
 import React from 'react';
 
-class HelloWorld extends React.Component {
+export default class HelloWorld extends React.Component {
 
     render() {
         var text = this.props.message + ' from React component!';
@@ -11,5 +11,3 @@ class HelloWorld extends React.Component {
 HelloWorld.propTypes = {
     message: React.PropTypes.string.isRequired
 };
-
-module.exports = HelloWorld;
