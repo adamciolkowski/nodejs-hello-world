@@ -6,7 +6,7 @@ var HelloWorld = React.createClass({
     },
     render: function () {
         var text = this.props.message + ' from React component!';
-        return React.createElement('div', {}, text);
+        return <div>{text}</div>;
     }
 });
 

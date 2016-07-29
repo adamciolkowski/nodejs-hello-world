@@ -3,6 +3,6 @@ var ReactDOM = require('react-dom');
 var HelloWorld = require('./components/HelloWorld');
 
 ReactDOM.render(
-    React.createElement(HelloWorld, {message: 'Hello world'}),
+    <HelloWorld message="Hello world"/>,
     document.getElementById('hello-world')
 );
