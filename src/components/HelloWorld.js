@@ -1,13 +1,15 @@
-var React = require('react');
+import React from 'react';
 
-var HelloWorld = React.createClass({
-    propTypes: {
-        message: React.PropTypes.string.isRequired
-    },
-    render: function () {
+class HelloWorld extends React.Component {
+
+    render() {
         var text = this.props.message + ' from React component!';
         return <div>{text}</div>;
     }
-});
+}
+
+HelloWorld.propTypes = {
+    message: React.PropTypes.string.isRequired
+};
 
 module.exports = HelloWorld;
