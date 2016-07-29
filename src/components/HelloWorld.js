@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {Component, PropTypes} from 'react';
 
-export default class HelloWorld extends React.Component {
+export default class HelloWorld extends Component {
 
     render() {
         var text = this.props.message + ' from React component!';
@@ -9,5 +9,5 @@ export default class HelloWorld extends React.Component {
 }
 
 HelloWorld.propTypes = {
-    message: React.PropTypes.string.isRequired
+    message: PropTypes.string.isRequired
 };
