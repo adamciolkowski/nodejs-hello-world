@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HelloWorld from './components/HelloWorld';
-import 'style!./styles.css'
+import './styles.css'
 
 ReactDOM.render(
     <HelloWorld message="Hello world"/>,
